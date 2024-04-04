@@ -1,8 +1,8 @@
 <?php
 
-if(!empty($_GET['page']))
+if(!empty($_POST['page']))
 {
-    $page = $_GET['page'];
+    $page = $_POST['page'];
 }
 else
 {
