@@ -6,14 +6,15 @@ $maVariableTrois = "Ou sont les types";
 
 maVariableQuatre = "Je deteste les dolars";
 
-if(!empty($_GET['page']))
+if(!empty($_POST['page']))
 {
-    $page = $_GET['page'];
+    $page = $_POST['page'];
 }
 else
 {
     $page = "index";
 }
+
 $filepath = "../src/pages/" . $page . ".php";
 if(file_exists($filepath))
 {
