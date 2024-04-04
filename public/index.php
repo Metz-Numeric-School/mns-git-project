@@ -4,7 +4,7 @@ $maVariableUne = 1;
 $maVariableDeux = 2;
 $maVariableTrois = "Ou sont les types";
 
-maVariableQuatre = "Je deteste les dolars";
+$maVariableQuatre = "Je deteste les dolars";
 
 if(!empty($_POST['page']))
 {
